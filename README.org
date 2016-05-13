@@ -1,0 +1,15 @@
+* timeHttp
+適当なディレクトリでHTTPサーバを立てたかっただけ
+
+* Usage
+** Install
+#+begin_src 
+$ go get github.com/kimitoboku/timeHttp
+#+end_src
+
+** Use
+#+begin_src 
+$ timeHttp -p 8080 .
+#+end_src
+
+http://localhost:8080/にサーバが立ち上がります
